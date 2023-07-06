@@ -1,0 +1,62 @@
+header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+header img{  
+	position: absolute;
+	left: 700px;
+	top: 0.5px;
+	width: 75px;
+}
+header h3{
+	position: absolute;
+	left: 770px;
+	top: 15px;
+}
+.container{
+	overflow: hidden;
+	background: rgb(203 213 225);
+	color: #21201e;
+	text-align: center;
+	width: 200px;
+	height: 350px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.2rem;
+	margin: 2rem;
+	box-shadow: 3px 3px 3px rgb(55 65 81);
+}
+.row{
+	display: flex;
+	flex-direction: column;
+
+
+
+}
+
+.accept-btn {
+	background-color: rgb(156 163 175);
+	border: 5px;
+	border-radius: 10px;
+	font-size: medium;
+	gap: 1.2rem;
+}
+.remove-btn {
+	background-color: rgb(248 113 113);
+	border: 5px;
+	border-radius: 10px;
+	font-size: medium;
+	gap: 1.2rem;
+}
+.phone{
+	flex-direction: row;
+	flex-wrap: wrap;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
